@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#custom-sidebar {
+    transition: width 0.5s linear;
+}
+
+#custom-sidebar.collapsed {
+    width: 0;
+}
+
+#custom-background {
+    transition: background-color 1s ease;
+}
